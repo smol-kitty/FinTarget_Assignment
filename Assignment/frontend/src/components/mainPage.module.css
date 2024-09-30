@@ -1,0 +1,14 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: blue;
+  padding: 1rem;
+}
+
+.button {
+  background-color: rgb(218, 8, 8);
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+}
