@@ -30,7 +30,7 @@ const Data = ({ symbol, interval}) => {
     return () => {
       ws.close();
     };
-  }, [symbol, interval]);
+  }, [symbol, interval, wsurl]);
 
   const updateLocalStorage = (symbol, newData) => {
     const key = `marketData_${symbol}`;
